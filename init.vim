@@ -86,7 +86,7 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nn
 "I this just says autocomplete with the first option if pop up menu is open.
 nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
-imap ;; <Esc>
+map <C-c> <Esc>
 
 " May need for Vim (not Neovim) since coc.nvim calculates byte offset by count
 " utf-8 byte sequence
